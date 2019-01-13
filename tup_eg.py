@@ -1,0 +1,5 @@
+# tuples are immutable (can't be modified)
+my_tuple = (1,2,3,4,5) # tuple packing (all items assigned to a single variable)
+print(my_tuple)
+a,b,c,d,e = my_tuple   # tuple unpacking (tuple items assigned to different variables)
+print(a,b,c,d,e)
